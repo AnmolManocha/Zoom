@@ -53,9 +53,8 @@ app.get('/api/get-turn-credentials', (req, res) => {
 })
 
 app.get('/api/get-port', (req, res) => {
-  res.send({ port: process.env.PORT || 5000 });
-});
-
+  res.send({ port: process.env.PORT || 5000 })
+})
 
 const io = require('socket.io')(server, {
   cors: {
@@ -239,7 +238,7 @@ const directMessageHandler = (data, socket) => {
 
 /* -------------------------------------------------------------------------- */
 
-app.use(express.static(path.join(__dirname, '/frontend/build')))
+app.use(express.static(path.join(__dirname, 'frontend', 'build')))
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'))
