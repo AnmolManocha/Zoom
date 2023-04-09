@@ -1,0 +1,65 @@
+.introPage-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.introCard-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20rem;
+    width: 25rem;
+    background-color: white;
+    border: 1px solid grey;
+    filter: drop-shadow(0 0 0.2rem grey);
+}
+
+.introCard-logo {
+    height: 2.5rem;
+    margin: 2rem 0;
+}
+
+.introButton-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 1rem;
+}
+
+.introCard-container button {
+    padding: 0.25rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.introCard-container button:hover {
+    cursor: pointer;
+}
+
+.joinRoom-button {
+    background-color: #0b5cff;
+    border: 1px solid #0b5cff;
+    color: white;
+}
+
+.joinRoom-button:hover {
+    background-color: #0055ff;
+    border-color: #0055ff;
+}
+
+.createRoom-button {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.createRoom-button:hover {
+    background-color: #e5e5e5;
+}
