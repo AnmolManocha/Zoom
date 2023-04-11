@@ -39,6 +39,7 @@
     padding: 1rem 2rem;
     background: linear-gradient(180deg, #0052c9 1.12%, #0a91db 100%);
     border-radius: 0px 0px 1rem 1rem;
+    width: max-content;
 }
 
 .participants-label-container {
@@ -561,6 +562,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .videoSection-container{
+        width: 100%;
+    }
 
     .chatSection-container,
     .participantsSection-container {

@@ -27,3 +27,10 @@ code {
   height: calc(100vh - 10%);
   margin-left: 20%;
 }
+
+@media screen and (max-width: 768px) {
+  .video-portal-styles {
+    height: calc(100vh - 12.5%);
+    width: 100%;
+  }
+}
