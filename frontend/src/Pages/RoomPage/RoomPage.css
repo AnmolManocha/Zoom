@@ -663,4 +663,8 @@
         border-radius: 50%;
         width: auto;
     }
+
+    .video-track-container video.full-screen{
+        width: calc(100% - 1.5vh);
+    }
 }
